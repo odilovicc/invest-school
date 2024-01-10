@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { contacts } from '/src/assets/data/contacts.js';
 import Button from "../Button/Button.jsx";
 import SearchInput from "../input/SearchInput.jsx";
+import CallSvg from "../../assets/images/Call.jsx";
+import Address from "../../assets/images/Address.jsx";
+import AddressSvg from "../../assets/images/Address.jsx";
 
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,14 +19,16 @@ function Header() {
                 {/* Phone & Address */}
                 <div className="hidden md:flex space-x-10">
                     <div className="flex items-center space-x-3">
-                        <img src="/src/assets/images/call.svg" alt=""/>
+                        {/*<img src="/src/assets/images/call.svg" alt=""/>*/}
+                        <CallSvg/>
                         <div className="flex flex-col space-y-1">
                             <h1 className="font-semibold">Telefon raqami</h1>
                             <span className="font-light">{contacts[0].number}</span>
                         </div>
                     </div>
                     <div className="flex items-center space-x-3">
-                        <img src="/src/assets/images/address.svg" alt=""/>
+                        {/*<img src="/src/assets/images/address.svg" alt=""/>*/}
+                        <AddressSvg/>
                         <div className="flex flex-col space-y-1">
                             <h1 className="font-semibold">Manzil</h1>
                             <span className="font-light">{contacts[0].address}</span>

@@ -37,7 +37,7 @@ function Header() {
                 </div>
 
                 {/* Logo */}
-                <img src="/src/assets/images/logo.png" className="w-[9%]" alt=""/>
+                <img src="/logo.png" className="w-[9%]" alt=""/>
 
                 {/* Hamburger Menu */}
                 <div className="md:hidden">

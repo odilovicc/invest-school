@@ -28,8 +28,8 @@ function Teachers(props) {
     ]
     return (
         <div>
-            <div className="container mx-auto py-20">
-                <h1 className="text-4xl text-zinc-800 font-semibold text-center">{texts.title}</h1>
+            <div className="container mx-auto py-20" id={`teachers`}>
+                <h1 className="text-mobile-heading md:text-4xl text-zinc-800 font-semibold text-center">{texts.title}</h1>
                 <hr className={`my-5 rounded-full w-16 border border-themeBlue mx-auto`}/>
                 <div className="container mx-auto flex flex-col md:flex-row md:gap-0 justify-center md:justify-between py-10">
                     {cardData.map((card, index) => (

@@ -16,7 +16,14 @@ export default {
         thirdBlue: '#0b2545',
         textColor: '#EEF4ED',
         lightBlue: '#8DA9C4',
-
+      },
+      padding: {
+        'mobile': '0.5rem'
+      },
+      fontSize: {
+        'mobile-heading': '1.25rem',
+        'mobile-subheading': '1rem',
+        'mobile-text': '0.8rem',
       }
     },
   },

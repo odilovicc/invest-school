@@ -1,14 +1,15 @@
 import React from 'react';
+import './Select.css'; // импортируйте файл стилей или добавьте стили непосредственно в этот файл
 
 function Select(props) {
     return (
-        <div>
+        <div className="custom-select-container">
             <select
                 id="countries"
-                className="border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5"
-                value={props.selectedValue} // устанавливаем выбранное значение
+                className="custom-select"
+                value={props.selectedValue}
             >
-                <option value={props.selectedValue}>{props.selected}</option>
+                <option value={props.selectedValue} disabled>{props.selected}</option>
                 {props.variants.map((option, key) => (
                     <option value={option} key={key}>{option}</option>
                 ))}

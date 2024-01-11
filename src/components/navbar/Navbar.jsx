@@ -1,10 +1,10 @@
 import React from 'react';
+import {links} from "../../assets/data/contacts.js";
 
 function Navbar(props) {
-    const links = ['Bosh sahifa', 'Biz haqimizda', 'Kurslar', 'Biz bilan bog\'lanish'];
 
     return (
-        <div className="flex items-center bg-gray-50 justify-center ">
+        <div className="hidden md:flex items-center bg-gray-50 justify-center ">
             <ul className="flex gap-4">
                 {links.map((link, index) => (
                     <li key={index} className={`px-2 py-4 hover:border-b-2 border-b-themeBlue`}>

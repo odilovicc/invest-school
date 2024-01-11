@@ -5,3 +5,11 @@ export const contacts = [
         address: 'Samarkand Region, Jonboy'
     }
 ];
+
+export const links = [
+    'Bosh sahifa', 'Biz haqimizda', 'O\'qituvchilar', 'Biz bilan bog\'lanish'
+];
+
+export const paths = [
+    '/', '#aboutus', '#teachers', '#contactus'
+];

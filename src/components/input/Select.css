@@ -1,0 +1,19 @@
+.custom-select-container {
+    position: relative;
+    width: 100%;
+}
+
+.custom-select {
+    appearance: none;
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    outline: none;
+}
+
+/* Если вы хотите добавить стрелку или другие кастомные элементы, используйте псевдоэлементы или другие методы стилизации. */

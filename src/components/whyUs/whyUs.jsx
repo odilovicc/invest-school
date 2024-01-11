@@ -25,9 +25,9 @@ function WhyUs(props) {
     return (
         <div className={`bg-white`}>
             <section className={`container mx-auto py-20`}>
-                <h1 className="text-4xl text-zinc-800 font-semibold text-center">{texts.whyUs}</h1>
+                <h1 className="text-mobile-heading md:text-4xl text-zinc-800 font-semibold text-center">{texts.whyUs}</h1>
                 <hr className={`my-5 rounded-full w-16 border border-themeBlue mx-auto`}/>
-                <h1 className={`text-xl font-light text-center`}>{texts.whyUsSub}</h1>
+                <h1 className={`text-mobile-subheading md:text-xl font-light text-center`}>{texts.whyUsSub}</h1>
                 <div className="flex flex-col md:flex-row justify-between p-10">
                     {cardData.map((card, index) => (
                         <div
@@ -38,9 +38,9 @@ function WhyUs(props) {
                             </a>
                             <div className="py-5">
                                 <a href="#">
-                                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{card.cardTitle}</h5>
+                                    <h5 className="mb-2 text-mobile-heading md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{card.cardTitle}</h5>
                                 </a>
-                                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{card.cardText}</p>
+                                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-mobile-text md:text-sm">{card.cardText}</p>
                             </div>
                         </div>
                     ))}

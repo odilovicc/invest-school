@@ -38,7 +38,7 @@ function WhyUs(props) {
                             </a>
                             <div className="py-5">
                                 <a href="#">
-                                    <h5 className="mb-2 text-mobile-heading md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{card.cardTitle}</h5>
+                                    <h5 className="mb-2 text-mobile-heading md:text-2xl font-bold tracking-tight text-gray-900">{card.cardTitle}</h5>
                                 </a>
                                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-mobile-text md:text-sm">{card.cardText}</p>
                             </div>
